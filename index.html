@@ -3,13 +3,21 @@
         <head>
             <title>BeaconTips</title>
             <link rel="stylesheet" href="index.css">
+
+            <!-- Compiled and minified CSS -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+            <!-- Compiled and minified JavaScript -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
         </head>
 
         <body>
             <h1>Beacon Tips</h1>
                 <h2>Tip-Share Simplified</h2>
-        <div id="names">
-            <h3>Names</h3>
+            <div class="row">
+        <form id="names" class="col s2">
+            <h4>Names</h4>
                 <input id="firstPerson" type="text">
                     <br>
                 <input id="secondPerson" type="text">
@@ -33,10 +41,10 @@
                 <input id="eleventhPerson" type="text">
                     <br>
                 <input id="twelfthPerson" type="text">
-        </div>
+        </form>
 
-            <div id="hours">
-                <h3>Hours Worked</h3>
+            <form id="hours" class="col s2">
+                <h4>Hours</h4>
                 <input id="firstPersonHours" type="number" min="0" max="80">
                 <br>
                 <input id="secondPersonHours" type="number" min="0" max="80">
@@ -60,6 +68,33 @@
                 <input id="eleventhPersonHours" type="number" min="0" max="80">
                 <br>
                 <input id="twelfthPersonHours" type="number" min="0" max="80">
+            </form>
+                <div id="cashMoney" class="col s2">
+                    <h4>Money</h4>
+                    <input id="firstPersonMoney" type="number" min="0" max="80">
+                    <br>
+                    <input id="secondPersonMoney" type="number" min="0" max="80">
+                    <br>
+                    <input id="thirdPersonMoney" type="number" min="0" max="80">
+                    <br>
+                    <input id="fourthPersonMoney" type="number" min="0" max="80">
+                    <br>
+                    <input id="fifthPersonMoney" type="number" min="0" max="80">
+                    <br>
+                    <input id="sixthPersonMoney" type="number" min="0" max="80">
+                    <br>
+                    <input id="seventhPersonMoney" type="number" min="0" max="80">
+                    <br>
+                    <input id="eighthPersonMoney" type="number" min="0" max="80">
+                    <br>
+                    <input id="ninthPersonMoney" type="number" min="0" max="80">
+                    <br>
+                    <input id="tenthPersonMoney" type="number" min="0" max="80">
+                    <br>
+                    <input id="eleventhPersonMoney" type="number" min="0" max="80">
+                    <br>
+                    <input id="twelfthPersonMoney" type="number" min="0" max="80">
+                </div>
             </div>
         </body>
 
