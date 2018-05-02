@@ -1,101 +1,209 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <title>BeaconTips</title>
-            <link rel="stylesheet" href="index.css">
+<html>
+<head>
+    <title>BeaconTips</title>
+    <link rel="stylesheet" href="index.css">
 
-            <!-- Compiled and minified CSS -->
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
-            <!-- Compiled and minified JavaScript -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 
-        </head>
+</head>
 
-        <body>
-            <h1>Beacon Tips</h1>
-                <h2>Tip-Share Simplified</h2>
-            <div class="row">
-        <form id="names" class="col s2">
-            <h4>Names</h4>
-                <input id="firstPerson" type="text">
-                    <br>
-                <input id="secondPerson" type="text">
-                    <br>
-                <input id="thirdPerson" type="text">
-                    <br>
-                <input id="fourthPerson" type="text">
-                    <br>
-                <input id="fifthPerson" type="text">
-                    <br>
-                <input id="sixthPerson" type="text">
-                    <br>
-                <input id="seventhPerson" type="text">
-                    <br>
-                <input id="eighthPerson" type="text">
-                    <br>
-                <input id="ninthPerson" type="text">
-                    <br>
-                <input id="tenthPerson" type="text">
-                    <br>
-                <input id="eleventhPerson" type="text">
-                    <br>
-                <input id="twelfthPerson" type="text">
-        </form>
+<body>
+<div class="blue">
+    <h1>Beacon Tips</h1>
+    <h2>Tip-Share Simplified</h2>
+</div>
+    <div class="container">
+        <div class="row">
+            <div class="col s4">
+                <h4>Names</h4>
+            </div>
+            <div class="col s4">
+                <h4>Hours Worked</h4>
+            </div>
+            <div class="col s4">
+                <h4>Tip Share</h4>
+            </div>
+        </div>
 
-            <form id="hours" class="col s2">
-                <h4>Hours</h4>
-                <input id="firstPersonHours" type="number" min="0" max="80">
-                <br>
-                <input id="secondPersonHours" type="number" min="0" max="80">
-                <br>
-                <input id="thirdPersonHours" type="number" min="0" max="80">
-                <br>
-                <input id="fourthPersonHours" type="number" min="0" max="80">
-                <br>
-                <input id="fifthPersonHours" type="number" min="0" max="80">
-                <br>
-                <input id="sixthPersonHours" type="number" min="0" max="80">
-                <br>
-                <input id="seventhPersonHours" type="number" min="0" max="80">
-                <br>
-                <input id="eighthPersonHours" type="number" min="0" max="80">
-                <br>
-                <input id="ninthPersonHours" type="number" min="0" max="80">
-                <br>
-                <input id="tenthPersonHours" type="number" min="0" max="80">
-                <br>
-                <input id="eleventhPersonHours" type="number" min="0" max="80">
-                <br>
-                <input id="twelfthPersonHours" type="number" min="0" max="80">
-            </form>
-                <div id="cashMoney" class="col s2">
-                    <h4>Money</h4>
-                    <input id="firstPersonMoney" type="number" min="0" max="80">
-                    <br>
-                    <input id="secondPersonMoney" type="number" min="0" max="80">
-                    <br>
-                    <input id="thirdPersonMoney" type="number" min="0" max="80">
-                    <br>
-                    <input id="fourthPersonMoney" type="number" min="0" max="80">
-                    <br>
-                    <input id="fifthPersonMoney" type="number" min="0" max="80">
-                    <br>
-                    <input id="sixthPersonMoney" type="number" min="0" max="80">
-                    <br>
-                    <input id="seventhPersonMoney" type="number" min="0" max="80">
-                    <br>
-                    <input id="eighthPersonMoney" type="number" min="0" max="80">
-                    <br>
-                    <input id="ninthPersonMoney" type="number" min="0" max="80">
-                    <br>
-                    <input id="tenthPersonMoney" type="number" min="0" max="80">
-                    <br>
-                    <input id="eleventhPersonMoney" type="number" min="0" max="80">
-                    <br>
-                    <input id="twelfthPersonMoney" type="number" min="0" max="80">
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field col s4">
+                    <input value="" id="name1" type="text" class="validate">
+                </div>
+                <div class="input-field col s4">
+                    <input id="firstPersonHours" type="number" min="0" max="80">
+                </div>
+                <div class="input-field col s4">
+                    <input disabled value="I am not editable" id="disabled Money1" type="text" class="validate">
                 </div>
             </div>
-        </body>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field col s4">
+                    <input value="" id="name1" type="text" class="validate">
+                </div>
+                <div class="input-field col s4">
+                    <input id="firstPersonHours" type="number" min="0" max="80">
+                </div>
+                <div class="input-field col s4">
+                    <input disabled value="I am not editable" id="disabled Money1" type="text" class="validate">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field col s4">
+                    <input value="" id="name1" type="text" class="validate">
+                </div>
+                <div class="input-field col s4">
+                    <input id="firstPersonHours" type="number" min="0" max="80">
+                </div>
+                <div class="input-field col s4">
+                    <input disabled value="I am not editable" id="disabled Money1" type="text" class="validate">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field col s4">
+                    <input value="" id="name1" type="text" class="validate">
+                </div>
+                <div class="input-field col s4">
+                    <input id="firstPersonHours" type="number" min="0" max="80">
+                </div>
+                <div class="input-field col s4">
+                    <input disabled value="I am not editable" id="disabled Money1" type="text" class="validate">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field col s4">
+                    <input value="" id="name1" type="text" class="validate">
+                </div>
+                <div class="input-field col s4">
+                    <input id="firstPersonHours" type="number" min="0" max="80">
+                </div>
+                <div class="input-field col s4">
+                    <input disabled value="I am not editable" id="disabled Money1" type="text" class="validate">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field col s4">
+                    <input value="" id="name1" type="text" class="validate">
+                </div>
+                <div class="input-field col s4">
+                    <input id="firstPersonHours" type="number" min="0" max="80">
+                </div>
+                <div class="input-field col s4">
+                    <input disabled value="I am not editable" id="disabled Money1" type="text" class="validate">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field col s4">
+                    <input value="" id="name1" type="text" class="validate">
+                </div>
+                <div class="input-field col s4">
+                    <input id="firstPersonHours" type="number" min="0" max="80">
+                </div>
+                <div class="input-field col s4">
+                    <input disabled value="I am not editable" id="disabled Money1" type="text" class="validate">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field col s4">
+                    <input value="" id="name1" type="text" class="validate">
+                </div>
+                <div class="input-field col s4">
+                    <input id="firstPersonHours" type="number" min="0" max="80">
+                </div>
+                <div class="input-field col s4">
+                    <input disabled value="I am not editable" id="disabled Money1" type="text" class="validate">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field col s4">
+                    <input value="" id="name1" type="text" class="validate">
+                </div>
+                <div class="input-field col s4">
+                    <input id="firstPersonHours" type="number" min="0" max="80">
+                </div>
+                <div class="input-field col s4">
+                    <input disabled value="I am not editable" id="disabled Money1" type="text" class="validate">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field col s4">
+                    <input value="" id="name1" type="text" class="validate">
+                </div>
+                <div class="input-field col s4">
+                    <input id="firstPersonHours" type="number" min="0" max="80">
+                </div>
+                <div class="input-field col s4">
+                    <input disabled value="I am not editable" id="disabled Money1" type="text" class="validate">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field col s4">
+                    <input value="" id="name1" type="text" class="validate">
+                </div>
+                <div class="input-field col s4">
+                    <input id="firstPersonHours" type="number" min="0" max="80">
+                </div>
+                <div class="input-field col s4">
+                    <input disabled value="I am not editable" id="disabled Money1" type="text" class="validate">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field col s4">
+                    <input value="" id="name1" type="text" class="validate">
+                </div>
+                <div class="input-field col s4">
+                    <input id="firstPersonHours" type="number" min="0" max="80">
+                </div>
+                <div class="input-field col s4">
+                    <input disabled value="I am not editable" id="disabled Money1" type="text" class="validate">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field col s4">
+                    <input value="" id="name1" type="text" class="validate">
+                </div>
+                <div class="input-field col s4">
+                    <input id="firstPersonHours" type="number" min="0" max="80">
+                </div>
+                <div class="input-field col s4">
+                    <input disabled value="I am not editable" id="disabled Money1" type="text" class="validate">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+</div>
+</body>
 
 </html>
