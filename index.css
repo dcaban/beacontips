@@ -1,3 +1,64 @@
-#sidebar{
-    display: flex;
+body{
+    font-family: Arial;
+}
+
+#contact-table{
+    border: 2px, solid, green;
+    bacground-color: yellow;
+}
+
+button{
+    border: 1px solid #5596e0;
+    border-radius: 5px;
+    background-color: rgba(245, 255, 239, 0);
+    color: #5596e0;
+    padding: 6px 10px;
+}
+
+button:hover{
+    background-color: #5596e0 ;
+    color:#fff;
+    cursor: pointer;
+}
+
+input{
+    border: 1px solid #5596e0;
+    border-radius: 5px;
+    background-color: #cedded;
+    padding: 6px 10px;
+}
+
+#contact-table{
+
+    margin: 20px;
+    border: 2px solid #92bfef;
+    padding: 1px;
+    background-color:#d7dfed;
+
+}
+
+
+
+th, td{
+    padding: 5px;
+    margin: 2px;
+    color: #7f8287;
+    background-color: #fff;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #5596e0;
+    border-radius: 20px;
+    padding: 3px;
+    font-size: 12px;
+    color: #5596e0;
+}
+
+a:hover{
+    background-color: #5596e0 ;
+    color:#fff;
+    cursor: pointer;
 }
